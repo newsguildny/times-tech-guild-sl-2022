@@ -5,3 +5,7 @@
 ## Slide 2
 
 ---
+
+## Going Public
+
+Building nytimesguild.org
