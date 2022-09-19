@@ -4,9 +4,57 @@
 
 <!-- .slide: data-background="#ff4040" -->
 
+Notes:
+
+- Intros
+- We work at the New York Times, and last year we helped organize the largest
+  union of tech workers in the country
+- There's an old saying in organizing: "There are no shortcuts in organizing".
+  It's totally true; we had literally thousands of one-on-one conversations over
+  2 and a half years before we had enough support to go public
+- _Buuuuut_, that doesn't mean that there aren't speed boosts!
+
+---
+
+## What we built
+
+<!-- .slide: data-background="#ff4040" -->
+
+- A bubble chart generator <!-- .element: class="fragment" -->
+- A website <!-- .element: class="fragment" -->
+- A Slack avatar generator <!-- .element: class="fragment" -->
+- A live vote count tracker <!-- .element: class="fragment" -->
+
+Notes:
+
+- A bubble chart generator, which allowed us to pinpoint with surgical precision
+  where what parts of the organization we had and hadn't spoken to
+- A website that allowed us to communicate to the world and to our unit
+- A Slack avatar generator that allowed to show support and solidarity in a
+  remote-only workplace
+- A live vote count tracker that allowed us to have what was possibly the first
+  ever fully public union vote count, and build excitement and engagement within
+  our unit
+
 ---
 
 ### What if alignment came for free?
+
+Notes:
+
+- Before we dive in to the fun stuff, imagine for a moment, a world where you
+  never had to hear the word "alignment" ever again
+- Maybe you're a product manager, and you spent all of last week trying to
+  figure out why your colleague seems to have a completely different definition
+  of "scalability" than you do
+- Or maybe you're a designer, and you can't figure out why that product manager
+  keeps talking about "scalability" when you bring up how there are over a
+  hundred slightly different blue buttons in your app
+- One theme that we kept noticing is that collaboration just kept sort of...
+  happening!
+- Because we were all working toward a shared goal, there was never an
+  "alignment" phase of the work; everyone improved on everyone else's ideas, and
+  we were able to iterate super rapidly
 
 ---
 
