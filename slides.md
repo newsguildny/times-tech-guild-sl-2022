@@ -58,6 +58,125 @@ Notes:
 
 ---
 
+### I ❤️ my job. But...
+
+Notes:
+
+- You work at a company where things are not going quite how you'd like.
+- Maybe there's something big going wrong: maybe you're working long hours, and
+  you never get to spend time with your partner.
+- Maybe you're being forced to return to the office, after multiple years of
+  successful remote work.
+- Maybe it's a pizza party where your raise should be.
+- Maybe it's a series of frustrating working conditions that are causing low
+  retention at your job. Nothing huge on its own...but things add up over time.
+
+- Here's the rub: you love your job. You're good at what you do and you care
+  about your co-workers, so you can't just quit. You want to make the company a
+  better place to work, for everyone...but what are your other options?
+
+---
+
+### POV: You're called into a furtive conversation with a coworker.
+
+Notes:
+
+- "Hey!" your friend says. "Can we talk?"
+- You get pulled into a conference room, a phone call, or a zoom meeting...and
+  your friend starts describing the same things you've been noticing.
+- {{tiny tiny description of a union, no details}}
+
+---
+
+## Organizing
+
+Data-driven decisions
+
+<!-- .slide: data-background="#ff4040" -->
+
+Notes:
+
+- You know that you want to work together with your coworkers to make the
+  company a better place to work.
+- There are a few different ways to do that, legally speaking, but the most
+  important thing is to get everyone on board, working together. You need to get
+  the largest number of people possible collaborating on this, to build strong
+  solidarity
+
+---
+
+### The Goal
+
+Map out union support across the company
+
+---
+
+### How much does someone support the union?
+
+1. All in! Let's organize! <!-- .element: class="fragment" -->
+2. Yes! Keep me updated! <!-- .element: class="fragment" -->
+3. I need to know more <!-- .element: class="fragment" -->
+4. I don't think so... <!-- .element: class="fragment" -->
+5. Thank you, but no <!-- .element: class="fragment" -->
+
+---
+
+### PS: Don't get caught!
+
+Notes:
+
+- it's not illegal
+- you're in fact protected in doing this!
+- but it's strategic to get all of your ducks in a row before management find
+  sout
+
+---
+
+### Time to phone a friend!
+
+And ask them to phone some friends too...
+
+Notes:
+
+- What would it look like if you talked to everyone you worked closely with, and
+  could trust to keep a secret?
+
+---
+
+##
+
+<!-- .slide: data-background-image="dist/images/org-chart-1.png", data-background-size="contain" -->
+
+---
+
+##
+
+<!-- .slide: data-background-image="dist/images/org-chart-2.png", data-background-size="contain" -->
+
+---
+
+##
+
+<!-- .slide: data-background-image="dist/images/org-chart-3.png", data-background-size="contain" -->
+
+---
+
+## The Bubble Chart
+
+Notes:
+
+- All credit to our coworker Shay Culpepper
+
+---
+
+# BUBBLE CHART TKTK
+
+Notes:
+
+-
+
+---
+
 ## Going Public
 
 Building nytimesguild.org
@@ -217,3 +336,5 @@ Notes:
 ---
 
 <!-- Add a photo of someone's Slack with all of the Guild avatars -->
+
+---
