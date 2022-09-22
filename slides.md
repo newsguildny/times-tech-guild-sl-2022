@@ -159,6 +159,66 @@ Notes:
 
 <!-- .slide: data-background-image="dist/images/org-chart-3.png", data-background-size="contain" -->
 
+Notes:
+
+- There are parts of the company that are too far away for you to have any
+  insight into them.
+- Even with a rippling outward effect, you're going to run into roadblocks where
+  people don't have connections.
+- There are parts of your group that may be deliberately silo'd off, for
+  practical or political reasons, which makes cross-collaboration harder.
+- The first step is collecting all of the information about who works where.
+- Nowadays, we have a handy online directory. There're some pretty strict
+  policies about appropriate use of work resources, and like I mentioned
+  earlier...we didn't want to spill the beans by scraping the site
+- It was a slow process to pull in names of all of our coworkers regularly,
+  tracking new hires and departures to keep our lists up to date.
+- We did sort of a quilting bee situation, where people joined up in a zoom call
+  and tried to make light work of it!
+- We had it easy...in less digital times, I've heard of folks grabbing printouts
+  of schedules from out of trash bins to collect this information!
+
+---
+
+### Why is the roll call so important?
+
+Notes:
+
+- And this is so, so important: in the Amazon warehouse in Bessemer, one of the
+  big issues the workers faced was that they had no idea how many people would
+  be grouped into their prospective union. They showed up for a card count, a
+  union verification step where you need to have proven support of more than 30%
+  of the group in order to prompt an election, expecting the total group size to
+  be roughly 1500 workers.
+- Amazon responded that there were actually 5800 workers.
+- This large difference in total workers quadrupled the number of supporting
+  card signers needed to trigger the election process to begin!
+
+---
+
+### The humble spreadsheet
+
+<!-- .slide: data-background-image="dist/images/dataviz-spreadsheet.png", data-background-size="contain" -->
+
+TKTK - fit height auto
+
+Notes:
+
+- This is where all organizers start - you have to dump your data somewhere.
+- However, we had 600+ people we were keping track of, and this got unteneble
+  fast.
+- We needed to track a bunch of fields for each chart, and however many filters
+  and conditional formatting in the world couldn't distill it down to something
+  usable at a glance
+
+---
+
+## Tried and True Data Viz: d3
+
+Notes:
+
+- this is why it was bad tktk
+
 ---
 
 ## The Bubble Chart
@@ -166,16 +226,6 @@ Notes:
 Notes:
 
 - All credit to our coworker Shay Culpepper
-
----
-
-# BUBBLE CHART TKTK
-
-Notes:
-
--
-
----
 
 ## Going Public
 
