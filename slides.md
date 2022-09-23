@@ -490,10 +490,30 @@ Notes:
   envelopes one at a time, but we _could_ put up a live feed of the votes as
   they came in
 
+---
+
 ### TKTK title?
 
 TK image of the slack "I can do this in an hour"
 
 Notes:
 
+- Roughly two weeks before the vote count, I woke up one day and said WE NEED A
+  VOTE TRACKER
+- I'm a backend dev, and I don't know how to put the pieces together to do this!
+  Thankfully I work with amazing folks, who were equally excited about the idea!
+- As you can see, Shane jumped in to save me, and we recruited a handful of
+  people to get the other details worked out:
+  - Jeff
+  - Riley??
+  - ??
+
+---
+
+### That turned out to be true
+
+Notes:
+
+- We had the website itself set up already, so we were just puting up an
+  additional page.
 -
