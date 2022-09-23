@@ -16,6 +16,11 @@ Notes:
 
 ---
 
+This is the story of how we built solidarity and support for a union with our
+coworkers, told through the technology we built along the way
+
+---
+
 ## What we built
 
 <!-- .slide: data-background="#ff4040" -->
@@ -35,26 +40,6 @@ Notes:
 - A live vote count tracker that allowed us to have what was possibly the first
   ever fully public union vote count, and build excitement and engagement within
   our unit
-
----
-
-### What if alignment came for free?
-
-Notes:
-
-- Before we dive in to the fun stuff, imagine for a moment, a world where you
-  never had to hear the word "alignment" ever again
-- Maybe you're a product manager, and you spent all of last week trying to
-  figure out why your colleague seems to have a completely different definition
-  of "scalability" than you do
-- Or maybe you're a designer, and you can't figure out why that product manager
-  keeps talking about "scalability" when you bring up how there are over a
-  hundred slightly different blue buttons in your app
-- One theme that we kept noticing is that collaboration just kept sort of...
-  happening!
-- Because we were all working toward a shared goal, there was never an
-  "alignment" phase of the work; everyone improved on everyone else's ideas, and
-  we were able to iterate super rapidly
 
 ---
 
@@ -198,7 +183,7 @@ Notes:
 
 ### The humble spreadsheet
 
-<!-- .slide: data-background-image="dist/images/dataviz-spreadsheet.png", data-background-size="contain" -->
+<!-- .slide: data-background-image="dist/images/dataviz-spreadsheet.png" data-background-opacity="0.4" -->
 
 Notes:
 
@@ -225,6 +210,8 @@ Notes:
 
 - All credit to our coworker Shay Culpepper
 
+---
+
 ## Going Public
 
 Building nytimesguild.org
@@ -242,7 +229,18 @@ Building nytimesguild.org
 - First real test of the strength of your organizing
   <!-- .element: class="fragment" -->
 
-<!-- .slide: data-auto-animate -->
+Notes:
+
+- Unionizing is a political action. Some of the leverage that unions have comes
+  from support from outside the company. A campaign has a lot more power if, for
+  example, reader of the New York Times are supportive of the position of the
+  unit
+- Management can't really directly address the campaign until there's a public
+  campaign to address. Once we went public, we knew that management would likely
+  almost immediately begin a counter campaign
+- You might have a lot of folks (in our case, a lot a lot) willing to say they
+  support unionizing behind closed doors, but there's no way to learn how well
+  that will translate to public support until you go public
 
 ---
 
@@ -252,13 +250,33 @@ Building nytimesguild.org
 - Information <!-- .element: class="fragment" -->
 - Flexibility <!-- .element: class="fragment" -->
 
+Notes:
+
+- So one of the tools we decided to develop to help us go public was a website
+- The first two jobs are jobs that every website has:
+  - Make it clear the tone ond personality of the website owners
+  - Provide information in a structured and accessible way
+- We also needed to be able to change the content somewhat rapidly. Things
+  evolve quickly when a campaign is launched, and we need to be able to keep
+  everyone up to date!
+
 ---
 
 ### Requirements
 
 - Approachable for developers <!-- .element: class="fragment" -->
 - Accessible to non-developers <!-- .element: class="fragment" -->
-- Reliable and fast <!-- .element: class="fragment" -->
+- Reliable and fast for readers <!-- .element: class="fragment" -->
+
+Notes:
+
+- We based our technology choices on requirements that we derived from the goals
+  above
+- People are busy, and union work is essentially a second, unpaid job. We can't
+  rely on availability of long-term contributors; it has to be easy to onboard
+  new developers and for folks to make changes when no developers are available
+- And websites are no good for anyone if they're not accessible to as many
+  people in your audience as possible!
 
 ---
 
@@ -266,11 +284,27 @@ Approachable for developers
 
 ### Next.js
 
+Notes:
+
+- Our frontend developers almost exclusively develop with React, and a bunch of
+  our systems use Next.js
+- Next.js is also pretty "batteries-included" for a React framework. It doesn't
+  have a huge learning curve.
+
 ---
 
 Accessible to non-developers
 
 ### Netlify CMS
+
+Notes:
+
+- This had a nice balance of being very easy to set up on the development side,
+  supporting static site builds, and being very accessible for non-developers
+  that wanted to work on the site content
+- We could rapidly prototype and build custom components for the CMS that
+  supported even fairly complex UIs, like an FAQ accordion with nested markdown
+  contents, with some regex and a React component.
 
 ---
 
@@ -278,22 +312,15 @@ Reliable and fast
 
 ### Next.js static export & Netlify CDN
 
----
-
-### Lesson #1
-
-People are busy
-
 Notes:
 
-Turns out, the hardest part of building a website for your union is the same as
-the hardest part of buliding the rest of the union: organizing!
-
-The first issue we had was actually getting enough people to dedicate enough
-time to get something working.
-
-Over the course of about 5 months, we worked in small spurts, usually one day at
-a time
+- Next.js has a static export feature that builds out a fully static version of
+  the site, removing the need for a backend application server.
+- Netlify CMS has built-in support for Netlify's Identity service for user
+  authorization and authentication, so Netlify CDN was a natural choice for
+  static file hosting
+- The result was a fairly low-weight, fast website, easily accessible anywhere
+  in the world
 
 ---
 
@@ -301,9 +328,56 @@ a time
 
 Testimonials
 
+Notes:
+
+- One of the first use cases for the website was to add a huge list of
+  testimonials from everyone in the organizing committee on why we were
+  supportive of a union
+
+---
+
 # B+
 
-<!-- Gonna keep going here, just taking a break for now -->
+<!-- .slide: data-background-image="dist/images/testimonials.png" data-background-size="contain" data-background-opacity="0.4" -->
+
+Notes:
+
+- This went alright! An engineer other than myself was able to contribute pretty
+  significant amounts of code, and it was super easy to import all of the
+  testimonials that we got as markdown files
+- I still had to be really heavily involved in the development though.
+- We encountered a previously unforeseen issue: Building this highlighted
+  testimonials widget was a fun new challenge in JAMstack land
+
+---
+
+### A Mulligan
+
+Frequently Asked Questions
+
+# A-
+
+Notes:
+
+- Way better. First pass was implemented entirely by another engineer, and
+  adding full markdown supported added with myself and yet a third engineer in a
+  pairing session
+- The actual contents of the FAQs were edited by several people across the unit
+
+---
+
+### The Big One
+
+Copy-editing
+
+# A+
+
+Notes:
+
+- Another member who hadn't been involved with the website at all before this
+  point was able to copy-edit the entire website from the CMS! No one needed to
+  make any code changes at all.
+- This is what we'd been after from the start
 
 ---
 
