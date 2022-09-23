@@ -244,8 +244,6 @@ Building nytimesguild.org
 - First real test of the strength of your organizing
   <!-- .element: class="fragment" -->
 
-<!-- .slide: data-auto-animate -->
-
 ---
 
 ### What does a public compaign website need?
@@ -254,13 +252,22 @@ Building nytimesguild.org
 - Information <!-- .element: class="fragment" -->
 - Flexibility <!-- .element: class="fragment" -->
 
+Notes:
+
+- The first two jobs are jobs that every website has:
+  - Make it clear the tone ond personality of the website owners
+  - Provide information in a structured and accessible way
+- We also needed to be able to change the content somewhat rapidly. Things
+  evolve quickly when a campaign is launched, and we need to be able to keep
+  everyone up to date!
+
 ---
 
 ### Requirements
 
 - Approachable for developers <!-- .element: class="fragment" -->
 - Accessible to non-developers <!-- .element: class="fragment" -->
-- Reliable and fast <!-- .element: class="fragment" -->
+- Reliable and fast for readers <!-- .element: class="fragment" -->
 
 ---
 
@@ -268,11 +275,27 @@ Approachable for developers
 
 ### Next.js
 
+Notes:
+
+- Our frontend developers almost exclusively develop with React, and a bunch of
+  our systems use Next.js
+- Next.js is also pretty "batteries-included" for a React framework. It doesn't
+  have a huge learning curve.
+
 ---
 
 Accessible to non-developers
 
 ### Netlify CMS
+
+Notes:
+
+- This had a nice balance of being very easy to set up on the development side,
+  supporting static site builds, and being very accessible for non-developers
+  that wanted to work on the site content
+- We could rapidly prototype and build custom components for the CMS that
+  supported even fairly complex UIs, like an FAQ accordion with nested markdown
+  contents, with some regex and a React component.
 
 ---
 
@@ -280,22 +303,15 @@ Reliable and fast
 
 ### Next.js static export & Netlify CDN
 
----
-
-### Lesson #1
-
-People are busy
-
 Notes:
 
-Turns out, the hardest part of building a website for your union is the same as
-the hardest part of buliding the rest of the union: organizing!
-
-The first issue we had was actually getting enough people to dedicate enough
-time to get something working.
-
-Over the course of about 5 months, we worked in small spurts, usually one day at
-a time
+- Next.js has a static export feature that builds out a fully static version of
+  the site, removing the need for a backend application server.
+- Netlify CMS has built-in support for Netlify's Identity service for user
+  authorization and authentication, so Netlify CDN was a natural choice for
+  static file hosting
+- The result was a fairly low-weight, fast website, easily accessible anywhere
+  in the world
 
 ---
 
@@ -303,9 +319,56 @@ a time
 
 Testimonials
 
+Notes:
+
+- One of the first use cases for the website was to add a huge list of
+  testimonials from everyone in the organizing committee on why we were
+  supportive of a union
+
+---
+
 # B+
 
-<!-- Gonna keep going here, just taking a break for now -->
+<!-- .slide: data-background-image="dist/images/testimonials.png" data-background-size="contain" data-background-opacity="0.4" -->
+
+Notes:
+
+- This went alright! An engineer other than myself was able to contribute pretty
+  significant amounts of code, and it was super easy to import all of the
+  testimonials that we got as markdown files
+- I still had to be really heavily involved in the development though.
+- We encountered a previously unforeseen issue: Building this highlighted
+  testimonials widget was a fun new challenge in JAMstack land
+
+---
+
+### A Mulligan
+
+Frequently Asked Questions
+
+# A-
+
+Notes:
+
+- Way better. First pass was implemented entirely by another engineer, and
+  adding full markdown supported added with myself and yet a third engineer in a
+  pairing session
+- The actual contents of the FAQs were edited by several people across the unit
+
+---
+
+### The Big One
+
+Copy-editing
+
+# A+
+
+Notes:
+
+- Another member who hadn't been involved with the website at all before this
+  point was able to copy-edit the entire website from the CMS! No one needed to
+  make any code changes at all.
+- This is what we'd been after from the start
 
 ---
 
