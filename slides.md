@@ -16,6 +16,11 @@ Notes:
 
 ---
 
+This is the story of how we built solidarity and support for a union with our
+coworkers, told through the technology we built along the way
+
+---
+
 ## What we built
 
 <!-- .slide: data-background="#ff4040" -->
@@ -35,26 +40,6 @@ Notes:
 - A live vote count tracker that allowed us to have what was possibly the first
   ever fully public union vote count, and build excitement and engagement within
   our unit
-
----
-
-### What if alignment came for free?
-
-Notes:
-
-- Before we dive in to the fun stuff, imagine for a moment, a world where you
-  never had to hear the word "alignment" ever again
-- Maybe you're a product manager, and you spent all of last week trying to
-  figure out why your colleague seems to have a completely different definition
-  of "scalability" than you do
-- Or maybe you're a designer, and you can't figure out why that product manager
-  keeps talking about "scalability" when you bring up how there are over a
-  hundred slightly different blue buttons in your app
-- One theme that we kept noticing is that collaboration just kept sort of...
-  happening!
-- Because we were all working toward a shared goal, there was never an
-  "alignment" phase of the work; everyone improved on everyone else's ideas, and
-  we were able to iterate super rapidly
 
 ---
 
@@ -225,6 +210,8 @@ Notes:
 
 - All credit to our coworker Shay Culpepper
 
+---
+
 ## Going Public
 
 Building nytimesguild.org
@@ -242,6 +229,19 @@ Building nytimesguild.org
 - First real test of the strength of your organizing
   <!-- .element: class="fragment" -->
 
+Notes:
+
+- Unionizing is a political action. Some of the leverage that unions have comes
+  from support from outside the company. A campaign has a lot more power if, for
+  example, reader of the New York Times are supportive of the position of the
+  unit
+- Management can't really directly address the campaign until there's a public
+  campaign to address. Once we went public, we knew that management would likely
+  almost immediately begin a counter campaign
+- You might have a lot of folks (in our case, a lot a lot) willing to say they
+  support unionizing behind closed doors, but there's no way to learn how well
+  that will translate to public support until you go public
+
 ---
 
 ### What does a public compaign website need?
@@ -252,6 +252,7 @@ Building nytimesguild.org
 
 Notes:
 
+- So one of the tools we decided to develop to help us go public was a website
 - The first two jobs are jobs that every website has:
   - Make it clear the tone ond personality of the website owners
   - Provide information in a structured and accessible way
@@ -266,6 +267,16 @@ Notes:
 - Approachable for developers <!-- .element: class="fragment" -->
 - Accessible to non-developers <!-- .element: class="fragment" -->
 - Reliable and fast for readers <!-- .element: class="fragment" -->
+
+Notes:
+
+- We based our technology choices on requirements that we derived from the goals
+  above
+- People are busy, and union work is essentially a second, unpaid job. We can't
+  rely on availability of long-term contributors; it has to be easy to onboard
+  new developers and for folks to make changes when no developers are available
+- And websites are no good for anyone if they're not accessible to as many
+  people in your audience as possible!
 
 ---
 
