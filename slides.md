@@ -200,8 +200,6 @@ Notes:
 
 <!-- .slide: data-background-image="dist/images/dataviz-spreadsheet.png", data-background-size="contain" -->
 
-TKTK - fit height auto
-
 Notes:
 
 - This is where all organizers start - you have to dump your data somewhere.
@@ -388,3 +386,40 @@ Notes:
 <!-- Add a photo of someone's Slack with all of the Guild avatars -->
 
 ---
+
+## Vote count!
+
+Notes:
+
+- At the start of 2022 we had a vote with the National Labor Relations Board, to
+  determine whether our group wanted to form a union.
+- The build up made heavy use of the bubble chart, but once the ballots had been
+  mailed back, there was very little to do, except for sit around anxiously.
+
+---
+
+### Coding up an Elections Tracker
+
+Building excitement to build community
+
+Notes:
+
+- PSYCH!
+- No NYT election would be complete without an elections tracker!
+- Don't worry...we didn't implement a needle.
+- Building this tracker was fast and fun, but this was also working towards our
+  goal of building community
+- this isn't just community for our tech unit, but building excitement amongst
+  our soon to be fellow NewsGuild members, the labor community, and the tech
+  community as a whole!
+- We couldn't let people into the Zoom call, where the Board agent read
+  envelopes one at a time, but we _could_ put up a live feed of the votes as
+  they came in
+
+### TKTK title?
+
+TK image of the slack "I can do this in an hour"
+
+Notes:
+
+-
