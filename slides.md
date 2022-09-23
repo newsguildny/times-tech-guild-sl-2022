@@ -198,9 +198,7 @@ Notes:
 
 ### The humble spreadsheet
 
-<!-- .slide: data-background-image="dist/images/dataviz-spreadsheet.png", data-background-size="contain" -->
-
-TKTK - fit height auto
+<!-- .slide: data-background-image="dist/images/dataviz-spreadsheet.png" data-background-opacity="0.4" -->
 
 Notes:
 
