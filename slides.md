@@ -53,12 +53,13 @@ Notes:
 - Maybe you're being forced to return to the office, after multiple years of
   successful remote work.
 - Maybe it's a pizza party where your raise should be.
-- Maybe it's a series of frustrating working conditions that are causing low
-  retention at your job. Nothing huge on its own...but things add up over time.
+- Maybe it's just a series of frustrating working conditions that are causing
+  low retention at your job. Nothing huge on its own...but things add up over
+  time.
 
 - Here's the rub: you love your job. You're good at what you do and you care
   about your co-workers, so you can't just quit. You want to make the company a
-  better place to work, for everyone...but what are your other options?
+  better place to work, for you, for everyone...but what are your other options?
 
 ---
 
@@ -69,7 +70,15 @@ Notes:
 - "Hey!" your friend says. "Can we talk?"
 - You get pulled into a conference room, a phone call, or a zoom meeting...and
   your friend starts describing the same things you've been noticing.
-- {{tiny tiny description of a union, no details}}
+- There are a lot of decisions being made for y'all at work, decisions that
+  impact your lives, that you have no input into.
+- You either have to negotiate with your manager yourself to get something
+  changed, just for you...like permission to wfh, or you just have to put up
+  with these policies.
+- It would be really cool if there was some way to work together with your
+  coworkers, to collectively discuss what would be best for people, and then put
+  those policies into place instead, right?
+- Sweet! That's what a union is!
 
 ---
 
@@ -93,6 +102,10 @@ Notes:
 ### The Goal
 
 Map out union support across the company
+
+Notes:
+
+- Your goal: to map out union support across your entire organization.
 
 ---
 
@@ -138,6 +151,17 @@ Notes:
 
 <!-- .slide: data-background-image="dist/images/org-chart-2.png", data-background-size="contain" -->
 
+Notes:
+
+- you know people on your sister team - they're great, you talk to them
+  regularly
+- but that next team over works on something completely different...it's a lot
+  harder to be sure how they'll respond.
+- The other fun thing is that if I work on the same team as Shane, and I reach
+  out to everyone I work closely with...most of those people are going to
+  overlap with the people Shane works closely with!
+- So you can get stuck based on just mutual connections.
+
 ---
 
 ##
@@ -154,14 +178,16 @@ Notes:
   practical or political reasons, which makes cross-collaboration harder.
 - The first step is collecting all of the information about who works where.
 - Nowadays, we have a handy online directory. There're some pretty strict
-  policies about appropriate use of work resources, and like I mentioned
-  earlier...we didn't want to spill the beans by scraping the site
+  policies about "appropriate use of work resources", and like I mentioned
+  earlier...we didn't want to spill the beans by scraping the site...IT WAS
+  FRUSTRATING!
 - It was a slow process to pull in names of all of our coworkers regularly,
   tracking new hires and departures to keep our lists up to date.
 - We did sort of a quilting bee situation, where people joined up in a zoom call
   and tried to make light work of it!
-- We had it easy...in less digital times, I've heard of folks grabbing printouts
-  of schedules from out of trash bins to collect this information!
+- We had it easy...in less digital times, I've heard of folks working retail,
+  having to grab printouts of shift schedules from out of trash bins to collect
+  this information!
 
 ---
 
@@ -176,6 +202,7 @@ Notes:
   of the group in order to prompt an election, expecting the total group size to
   be roughly 1500 workers.
 - Amazon responded that there were actually 5800 workers.
+  - "fifty-eight hundred"
 - This large difference in total workers quadrupled the number of supporting
   card signers needed to trigger the election process to begin!
 
@@ -213,6 +240,8 @@ Notes:
 - Colors are hopefully sort of obvious, if not color-blind friendly:
   - the greener, the more pro-union
   - the redder, the more anti-union
+  - greys are both 3s AND unassessed, and you can maybe start to predict from
+    there some of the issues we saw almost immediately
 - But! We were able to see the patterns, including which parts of the
   organization we didn't have data on or didn't have support in yet. This was
   invaluable in helping us decide who to talk to going forward.
@@ -261,25 +290,32 @@ Notes:
   how to export the image, and she revolutionized how we displayed the data in
   the process!
 - She realized that we don't need any information about the managers, and
-  removed all of their bubbles.
+  removed all of their nodes.
 - As a result, all of the branches that took up so much space were removed too,
   making it far more readable
+- Instead, each nested bubble represented a layer of management
+- Her tool also allowed us to easily change color based on different parameters.
+  Instead of just 1-5 assessments, we colud now look at "who doesn't have an
+  organizing contact?" and "how long ago were they last contacted about the
+  union"?
 
 ---
 
 ##
 
-<!-- .slide: data-background-image="dist/images/dataviz-bubble-site.png"  "-->
+<!-- .slide: data-background-image="dist/images/dataviz-bubble-site.png"  -->
 
 Notes:
 
 - (we can cut this slide if we want!)
 - Shay actually spent time making a shiny interface for this as part of a
-  master's thesis, and now there's a slick online interface for uploading CSVs
+  master's thesis and now there's a slick online interface for uploading CSVs
   and stylizing a whole bunch of facets in the display!
 - But that came much later, so let's get back to the timeline at hand!
 - maybe put this somewhere? At the end? After this? TKTK -
   data-for-power.shay.dev/
+- TIMING - 11:30 - bubble chart
+- TKTK - why are these notes weird?
 
 ---
 
@@ -534,7 +570,7 @@ Notes:
 
 ---
 
-<!-- Add a photo of someone's Slack with all of the Guild avatars -->
+<!-- .slide: data-background-image="dist/images/slack-avatars.png", data-background-size="contain" -->
 
 ---
 
@@ -611,12 +647,9 @@ Notes:
 
 Notes:
 
-- You heard it here first! We manually incremented the vote counts as they were
-  read off.
 - The NLRB agent had a stack of hundreds on envelopes and read them out, one by
-  one:
+  one, holding them up to the camera to show them off
   - YES, YES, NO...
-- and held them up to the camera to show them off
 - the vote count process is a bit complicated, because both we and mgmt have the
   option to contest ballots...but at the end of the day we needed 50%+1 yes
   votes out of the total submitted ballots
@@ -625,38 +658,60 @@ Notes:
 
 ##
 
-<!-- .slide: data-background-image="dist/images/vote-ct-tally.png" -->
+<!-- .slide: data-background-image="dist/images/vote-ct-tally.png"-->
 
 Notes:
 
+- You heard it here first! We manually incremented the vote counts as they were
+  read off.
 - We didn't have time to write a wrapper to increment and decrement the votes,
   so it was harder than it should have been!
 - I manually typed in new values every time we heard a result, and the tracker
   updated in real time
-- opt - I did make a typo once that said that we won by like twice as many votes
-  as we have members, so, uh...whoops.
-- opt - Did I cry when we won? Yes I cried, everyone was crying. Did that make
-  it super hard to keep typing numbers into the small box? YES, VERY MUCH SO.
+- opt - I did make a typo once that said that we won by like three times as many
+  votes as we have members, so, uh...whoops.
 
 ---
 
 ##
 
-<!-- .slide: data-background-video="dist/images/confetti.mp4" data-background-size="contain"-->
+<!-- .slide: data-background-video="dist/images/confetti.mp4" data-background-size="contain" data-background-video-loop="true" -->
 
 Notes:
 
-- TKTK - can we loop this? idk how to css
-- TKTK - cut the audio
+- wub
+
+- opt - Did I cry when we won? Yes I cried, everyone was crying. Did that make
+  it super hard to keep typing numbers into the small box? YES, VERY MUCH SO.
+- But the confetti was worth it, even if we had just seen it fifteen minutes
+  before when I made that typo!
+- Our coworker Joe put that together, and you can still activate it on that page
+  of our site if you go click on the little tada emoji!
+- And of course, having a union was also worth it! We immediately started to
+  switch gears and begin the more difficult work of building up our union's
+  democratic structures and gearing up for our first contract campaign!
 
 ---
 
-## CONCLUSION TKTK
+## There are No Shortcuts in Organizing
+
+<!-- .slide: data-background="#ff4040" -->
 
 Notes:
+
+- Our organizing efforts were built on many dozens of people having a total of
+  many thousands of one on one conversations with our coworkers. There's no real
+  way to build connections, to build solidarity, to build community without
+  getting to know each other.
+- You need to know what people want to improve. And you need to know why, what
+  it is about each issue that makes it so important to them.
+- There was no bit of technology that we built or used during those years, or
+  today when we've had a biiiiiit more time to think things through, that could
+  have replaced these conversations.
+- Like organizers have been saying for decades, there are no shortcuts in
+  organizing...you have to have the conversations, and you have to build the
+  relationships.
 
 ---
 
 ## Questions?
-
-<!-- .slide: data-background="#ff4040" -->
