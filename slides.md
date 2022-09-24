@@ -13,11 +13,8 @@ Notes:
   It's totally true; we had literally thousands of one-on-one conversations over
   2 and a half years before we had enough support to go public
 - _Buuuuut_, that doesn't mean that there aren't speed boosts!
-
----
-
-This is the story of how we built solidarity and support for a union with our
-coworkers, told through the technology we built along the way
+- This is the story of how we built solidarity and support for a union with our
+  coworkers, told through the technology we built along the way
 
 ---
 
@@ -84,7 +81,8 @@ Notes:
 
 ## Organizing
 
-Data-driven decisions
+Building a union looks like having literally thousands of conversations like
+this
 
 <!-- .slide: data-background="#ff4040" -->
 
@@ -96,15 +94,6 @@ Notes:
   important thing is to get everyone on board, working together. You need to get
   the largest number of people possible collaborating on this, to build strong
   solidarity
-
----
-
-### The Goal
-
-Map out union support across the company
-
-Notes:
-
 - Your goal: to map out union support across your entire organization.
 
 ---
@@ -455,6 +444,8 @@ Notes:
 - I still had to be really heavily involved in the development though.
 - We encountered a previously unforeseen issue: Building this highlighted
   testimonials widget was a fun new challenge in JAMstack land
+- So we did a little more work, and, lo and behold, we soon had another test
+  case
 
 ---
 
@@ -496,6 +487,11 @@ Notes:
 
 <!-- .slide: data-background-color="#ff4040" data-background-image="dist/images/guild-frame-square-1.png", data-background-size="contain" -->
 
+Notes:
+
+- With the launch of our website and our public campaign, we moved into a new
+  phase of organizing: demonstrating public support
+
 ---
 
 ### The First Request
@@ -521,7 +517,8 @@ Notes:
 
 - We needed a way to make it obvious to management how much support we had,
   which was a lot
-- Buuuuut no one was in the office!
+- Buuuuut no one was in the office! The only way we really "saw" each other was
+  in Slack and on Google Meet. We needed away to show support on those platforms
 
 ---
 
@@ -537,7 +534,7 @@ Notes:
   template, and you could add a photo and then export the slide as a new picture
 - Then, everyone could have a nice Guild frame around their Slack avatars!
 - Slack avatars are super visible when everyone's remote
-- Even for very technical users, this was too many steps to follow
+- _Buuuut_ even for very technical users, this was too many steps to follow
 
 ---
 
@@ -571,6 +568,16 @@ Notes:
 ---
 
 <!-- .slide: data-background-image="dist/images/slack-avatars.png", data-background-size="contain" -->
+
+Notes:
+
+- And then we executed, and boy was it awesome
+- For several months, nearly every conversation on Slack was dominated by these
+  little red frames
+- This didn't end up being enough for management to voluntarily recognize us,
+  but it did help us accomplish another goal. Everyone could see how many of
+  their colleagues were on their side and wanted to support them! It was a huge
+  morale boost
 
 ---
 
@@ -620,7 +627,7 @@ Notes:
 
 ---
 
-### That turned out to be true
+### And then... we did!
 
 Notes:
 
