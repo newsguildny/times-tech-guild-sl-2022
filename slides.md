@@ -645,6 +645,8 @@ Notes:
 
 ### The Day of the Vote Count
 
+<!-- .slide: data-background-image="dist/images/vote-count-empty.png", data-background-size="contain" data-background-opacity="0.3"-->
+
 Notes:
 
 - The NLRB agent had a stack of hundreds on envelopes and read them out, one by
