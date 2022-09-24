@@ -635,11 +635,22 @@ Notes:
 
 ---
 
-### Firestore
+### Persistance
+
+Quick, grab a BaaS!
+
+![The Firebase logo](dist/images/firebase-logo.png)
 
 Notes:
 
-- TKTK technical details
+- This feature introduced a novel requirement: Persistence! We needed the
+  website to update live for everyone at the same time, so we needed a backend
+  server
+- Realtime Database is one of the database options for Firebase, Google's
+  backend-as-a-service offering
+- We use it for tracking realtime user cursors in the New York Times' content
+  management system; it's super easy to set up and was a great choice for this
+  project
 
 ---
 
