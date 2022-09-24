@@ -165,7 +165,7 @@ Notes:
 
 ---
 
-### Why is the roll call so important?
+### Why is the org chart so important?
 
 Notes:
 
@@ -183,7 +183,7 @@ Notes:
 
 ### The humble spreadsheet
 
-<!-- .slide: data-background-image="dist/images/dataviz-spreadsheet.png" data-background-opacity="0.4" -->
+<!-- .slide: data-background-image="dist/images/dataviz-spreadsheet.png", data-background-opacity="0.4" -->
 
 Notes:
 
@@ -196,19 +196,90 @@ Notes:
 
 ---
 
-## Tried and True Data Viz: d3
+## d3
+
+Tried and True Data Viz
+
+<!-- .slide: data-background-image="dist/images/dataviz-d3-simple.png", data-background-opacity="0.4" -->
 
 Notes:
 
-- this is why it was bad tktk
+- This wasn't the best, but it was functional! And better yet, I didn't have to
+  code any visualization.
+- I wrote some quick python processor to crunch our spreadsheet into usable
+  format and generated files with hierarchies and colors specified.
+- I stole code for this super simple force-repelling graph from the internet,
+  and just...let it do its thing.
+- Colors are hopefully sort of obvious, if not color-blind friendly:
+  - the greener, the more pro-union
+  - the redder, the more anti-union
+- But! We were able to see the patterns, including which parts of the
+  organization we didn't have data on or didn't have support in yet. This was
+  invaluable in helping us decide who to talk to going forward.
+
+---
+
+## More d3
+
+Overloaded and Confusing
+
+<!-- .slide: data-background-image="dist/images/dataviz-d3-overloaded.png" data-background-opacity="0.4" -->
+
+Notes:
+
+- The thing is, our spreadsheet was getting more and more complicated. It wasn't
+  just "What number?" but now we wanted to track things like "who signed a
+  card?" and "Who participated in our latest action?"
+- So, uh, I added more colors.
+- This was really bad. Super bad. No one could read it.
+- Worse, you can't easily print from d3
+  - so either folks had to run this on their own computers
+    - not an option for our non-engineering bretheren
+    - really annoying for engineers who don't use python or javascript, tbh
+  - OR they had to look at my terrible screenshots, way zoomed in so you could
+    read the names...and therefore you couldn't pan around to see the whole
+    image.
+- Like I said, VERY BAD!
 
 ---
 
 ## The Bubble Chart
 
+Shay reorganizes the chart
+
+<!-- .slide: data-background="#ff4040" -->
+
+---
+
+##
+
+<!-- .slide: data-background-image="dist/images/dataviz-bubble-v1.png" data-background-size="contain"-->
+
 Notes:
 
-- All credit to our coworker Shay Culpepper
+- All credit to our coworker Shay Culpepper - I asked if she could figure out
+  how to export the image, and she revolutionized how we displayed the data in
+  the process!
+- She realized that we don't need any information about the managers, and
+  removed all of their bubbles.
+- As a result, all of the branches that took up so much space were removed too,
+  making it far more readable
+
+---
+
+##
+
+<!-- .slide: data-background-image="dist/images/dataviz-bubble-site.png"  "-->
+
+Notes:
+
+- (we can cut this slide if we want!)
+- Shay actually spent time making a shiny interface for this as part of a
+  master's thesis, and now there's a slick online interface for uploading CSVs
+  and stylizing a whole bunch of facets in the display!
+- But that came much later, so let's get back to the timeline at hand!
+- maybe put this somewhere? At the end? After this? TKTK -
+  data-for-power.shay.dev/
 
 ---
 
@@ -216,7 +287,7 @@ Notes:
 
 Building nytimesguild.org
 
-<!-- .slide: data-background="#ff4040" -->
+<!-- .slide: data-background="#ff4040", data-background-size="50p"-->
 
 ---
 
@@ -472,9 +543,11 @@ Notes:
 
 ---
 
-### Coding up an Elections Tracker
+### The Elections Tracker
 
 Building excitement to build community
+
+<!-- .slide: data-background="#ff4040" -->
 
 Notes:
 
@@ -492,21 +565,16 @@ Notes:
 
 ---
 
-### TKTK title?
+##
 
-TK image of the slack "I can do this in an hour"
+<!-- .slide: data-background-image="dist/images/shane-bravado-1.png", data-background-size="contain" -->
 
 Notes:
 
 - Roughly two weeks before the vote count, I woke up one day and said WE NEED A
   VOTE TRACKER
 - I'm a backend dev, and I don't know how to put the pieces together to do this!
-  Thankfully I work with amazing folks, who were equally excited about the idea!
-- As you can see, Shane jumped in to save me, and we recruited a handful of
-  people to get the other details worked out:
-  - Jeff
-  - Riley??
-  - ??
+  Thankfully I work with amazing folks, who were equally excited about the idea
 
 ---
 
@@ -514,6 +582,75 @@ Notes:
 
 Notes:
 
-- We had the website itself set up already, so we were just puting up an
+- We had the website itself set up already, so we were just putting up an
   additional page.
--
+- As you can see, Shane jumped in to save me, and we recruited a handful of
+  people to get the other details worked out:
+  - Jeff - another engineer
+  - Riley - the designer from all of the above projects
+- It was literally an hour to hook up the main components, then a bit more time
+  to prettify it
+
+---
+
+### Firestore
+
+Notes:
+
+- TKTK technical details
+
+---
+
+### The Day of the Vote Count
+
+Notes:
+
+- You heard it here first! We manually incremented the vote counts as they were
+  read off.
+- The NLRB agent had a stack of hundreds on envelopes and read them out, one by
+  one:
+  - YES, YES, NO...
+- and held them up to the camera to show them off
+- the vote count process is a bit complicated, because both we and mgmt have the
+  option to contest ballots...but at the end of the day we needed 50%+1 yes
+  votes out of the total submitted ballots
+
+---
+
+##
+
+<!-- .slide: data-background-image="dist/images/vote-ct-tally.png" -->
+
+Notes:
+
+- We didn't have time to write a wrapper to increment and decrement the votes,
+  so it was harder than it should have been!
+- I manually typed in new values every time we heard a result, and the tracker
+  updated in real time
+- opt - I did make a typo once that said that we won by like twice as many votes
+  as we have members, so, uh...whoops.
+- opt - Did I cry when we won? Yes I cried, everyone was crying. Did that make
+  it super hard to keep typing numbers into the small box? YES, VERY MUCH SO.
+
+---
+
+##
+
+<!-- .slide: data-background-video="dist/images/confetti.mp4" data-background-size="contain"-->
+
+Notes:
+
+- TKTK - can we loop this? idk how to css
+- TKTK - cut the audio
+
+---
+
+## CONCLUSION TKTK
+
+Notes:
+
+---
+
+## Questions?
+
+<!-- .slide: data-background="#ff4040" -->
