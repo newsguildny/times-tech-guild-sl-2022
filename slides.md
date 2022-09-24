@@ -56,7 +56,6 @@ Notes:
 - Maybe it's just a series of frustrating working conditions that are causing
   low retention at your job. Nothing huge on its own...but things add up over
   time.
-
 - Here's the rub: you love your job. You're good at what you do and you care
   about your co-workers, so you can't just quit. You want to make the company a
   better place to work, for you, for everyone...but what are your other options?
@@ -83,8 +82,6 @@ Notes:
 ---
 
 ## Organizing
-
-Data-driven decisions
 
 <!-- .slide: data-background="#ff4040" -->
 
@@ -312,10 +309,6 @@ Notes:
   master's thesis and now there's a slick online interface for uploading CSVs
   and stylizing a whole bunch of facets in the display!
 - But that came much later, so let's get back to the timeline at hand!
-- maybe put this somewhere? At the end? After this? TKTK -
-  data-for-power.shay.dev/
-- TIMING - 11:30 - bubble chart
-- TKTK - why are these notes weird?
 
 ---
 
@@ -728,3 +721,9 @@ Notes:
 ---
 
 ## Questions?
+
+[@NYTGuildTech](https://twitter.com/NYTGuildTech)
+
+https://nytimesguild.org/
+
+[Bubble Chart Generator: data-for-power.shay.dev/](data-for-power.shay.dev/)
