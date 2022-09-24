@@ -105,6 +105,10 @@ Notes:
 4. I don't think so... <!-- .element: class="fragment" -->
 5. Thank you, but no <!-- .element: class="fragment" -->
 
+Notes:
+
+- How can we quantify support?
+
 ---
 
 ### PS: Don't get caught!
