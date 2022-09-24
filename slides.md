@@ -452,13 +452,19 @@ Notes:
 
 ---
 
-## A Show of Solidarity <!-- .element: style="width: 400px; padding-left: 250px; color: #ff4040;" -->
+<!-- .slide: data-background-image="dist/images/website.png" -->
+
+---
+
+## Public Support <!-- .element: style="width: 600px; margin: auto; color: #ff4040;" -->
 
 <!-- .slide: data-background-color="#ff4040" data-background-image="dist/images/guild-frame-square-1.png", data-background-size="contain" -->
 
 ---
 
-### The Big Question
+### The First Request
+
+Voluntary Recognition
 
 Note:
 
